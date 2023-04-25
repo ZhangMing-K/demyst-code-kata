@@ -1,0 +1,58 @@
+.container form {
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+.rowItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rowItem label {
+  width: 100%;
+  color: #3b3b3b;
+}
+
+.rowItem input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.rowItem input:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+.rowItem select {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.container button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  cursor: pointer;
+  /* background-color: rgba(57, 223, 104, 0.891); */
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
